@@ -1,6 +1,6 @@
 'use client';
 
-import { useRouter } from 'next/router';
+import { useRouter } from 'next/navigation';
 
 const Footer = ({ authorName = 'Jon Henrik Åvitsland' }) => {
   const router = useRouter();
@@ -11,7 +11,7 @@ const Footer = ({ authorName = 'Jon Henrik Åvitsland' }) => {
   };
 
   return (
-    <footer>
+    <footer className='text-center'>
       <p>
         Challenge by{' '}
         <a
