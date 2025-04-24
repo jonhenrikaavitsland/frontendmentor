@@ -10,7 +10,7 @@ const outfit = Outfit({
 export default function QrCode() {
   return (
     <div
-      className={`p-4 bg-white rounded-2.5xl w-xs flex flex-col gap-6 text-center shadow-custom-one ${outfit.className}`}
+      className={`p-4 bg-white rounded-2.5xl max-w-xs flex flex-col gap-6 text-center shadow-custom-one mx-6 ${outfit.className}`}
     >
       <div>
         <Image
@@ -25,7 +25,7 @@ export default function QrCode() {
         <h2 className='text-slate-900 font-bold text-1.5xl/[120%]'>
           Improve your front-end skills by building projects
         </h2>
-        <p className='text-slate-500 text-sm-extra/[140%] w-3xs mx-auto mb-6'>
+        <p className='text-slate-500 text-sm-extra/[140%] max-w-3xs mx-auto mb-6'>
           Scan the QR code to visit Frontend Mentor and take your
           coding skills to the next level
         </p>
