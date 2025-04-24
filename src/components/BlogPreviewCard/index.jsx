@@ -22,22 +22,30 @@ export default function BlogPreviewCard() {
         />
       </div>
       <section className='flex flex-col gap-3'>
-        <div className='capitalize bg-yellow-custom font-extrabold text-xs/normal px-3 py-1 w-min'>
+        <div className='capitalize bg-yellow-custom font-extrabold text-xs/normal px-3 py-1 w-min xs:text-sm/normal'>
           <span>learning</span>
         </div>
-        <p className='text-xs/normal capitalize'>
+        <p className='text-xs/normal capitalize xs:text-sm/normal'>
           published 21 dec 2023
         </p>
-        <h2 className='font-extrabold text-xl/normal'>
+        <h2 className='font-extrabold text-xl/normal xs:text-2xl/normal'>
           <span className='uppercase'>html & css</span> foundations
         </h2>
-        <p>
+        <p className='text-gray-500 text-sm/normal xs:text-base'>
           These languages are the backbone of every website,
           defining structure, content, and presentation.
         </p>
       </section>
-      <div>
-        <div></div>
+      <div className='flex gap-3 capitalize font-extrabold text-sm/normal items-center'>
+        <div>
+          <Image
+            src='/project/blog-preview-card/image-avatar.webp'
+            width={32}
+            height={32}
+            alt='the author'
+            className='rounded-full'
+          />
+        </div>
         <span>greg hooper</span>
       </div>
     </div>
