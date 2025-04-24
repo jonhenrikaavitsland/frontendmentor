@@ -28,7 +28,7 @@ export default function BlogPreviewCard() {
         <p className='text-xs/normal capitalize xs:text-sm/normal'>
           published 21 dec 2023
         </p>
-        <h2 className='font-extrabold text-xl/normal xs:text-2xl/normal'>
+        <h2 className='font-extrabold text-xl/normal xs:text-2xl/normal hover:text-yellow-custom hover:cursor-pointer'>
           <span className='uppercase'>html & css</span> foundations
         </h2>
         <p className='text-gray-500 text-sm/normal xs:text-base'>
