@@ -17,12 +17,12 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 
 ### Screenshot
 
-![](/public/project/qr-code/solution.jpg)
+![](/public/project/blog-preview-card/solution.jpg)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/jonhenrikaavitsland/frontendmentor/tree/master/src/components/qr-code)
-- Live Site URL: [Add live site URL here](https://boisterous-zuccutto-ab0e1b.netlify.app/components/qr-code)
+- Solution URL: [Add solution URL here](https://github.com/jonhenrikaavitsland/frontendmentor/tree/master/src/components/BlogPreviewCard)
+- Live Site URL: [Add live site URL here](https://boisterous-zuccutto-ab0e1b.netlify.app/components/blog-preview-card)
 
 ## My process
 
@@ -38,11 +38,11 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 
 ### What I learned
 
-Haven't really learnt anything new from this project, but my goal is to just get some experience working with Next.
+My goal is to get some volume in coding with Next.
 
 ### Continued development
 
-I will be coding the more and more challenging challenges from Frontend Mentor in this repo in the time to come.
+I will further work on Frontend Mentor challenges, I will begin to involve Typescript going forward.
 
 ## Author
 
