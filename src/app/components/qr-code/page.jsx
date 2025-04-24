@@ -1,4 +1,4 @@
-import QrCode from '@/components/qr-code';
+import QrCode from '@/components/QrCode';
 
 export const metadata = {
   title: 'Qr-Code | My Frontend Mentor Portfolio',
